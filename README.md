@@ -1,5 +1,12 @@
 # Stargazer
 
+## JELAMBERT UPDATES
+* Added a stargazer_discrete class.  This functions in the same way as stargazer but is for binary outcomes.  (I'll add a count model too at some point)
+* Changed a few Latex Settings (like the dependent variable in the heading)
+
+
+
+
 This is a python port of the R stargazer package that can be found [on CRAN](https://CRAN.R-project.org/package=stargazer). I was disappointed that there wasn't equivalent functionality in any python packages I was aware of so I'm re-implementing it here.
 
 There is an experimental function in the [statsmodels.regression.linear_model.OLSResults.summary2](http://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLSResults.summary2.html) that can report single regression model results in HTML/CSV/LaTeX/etc, but it still didn't quite fulfill what I was looking for.
